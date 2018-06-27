@@ -1,8 +1,8 @@
 {{!< default}}
 {{#post}}
 <header class="regular post" 
-	{{#if image}}
-	style="background-image: url({{image}});"
+	{{#if feature_image}}
+	style="background-image: url({{img_url}});"
 	{{else}}
 		{{#if @blog.cover_image}}
 		style="background-image: url({{@blog.cover_image}});"
